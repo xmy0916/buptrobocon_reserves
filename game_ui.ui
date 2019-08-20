@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>game_ui</class>
+ <widget class="QWidget" name="game_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1924</width>
+    <height>1460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QPushButton" name="button_start_time">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>0</y>
+     <width>161</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/mysourece/picture/button_background.png);
+font: 20pt &quot;AcadEref&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>开始计时</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_stop_time">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>0</y>
+     <width>161</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/mysourece/picture/button_background.png);
+font: 20pt &quot;AcadEref&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>暂停计时</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_end_game">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>0</y>
+     <width>161</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/mysourece/picture/button_background.png);
+font: 20pt &quot;AcadEref&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>战斗结算</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_return_menu">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>0</y>
+     <width>161</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/mysourece/picture/button_background.png);
+color: rgb(255, 255, 255);
+font: 20pt &quot;AcadEref&quot;;</string>
+   </property>
+   <property name="text">
+    <string>返回菜单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_clear">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>0</y>
+     <width>161</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/mysourece/picture/button_background.png);
+font: 20pt &quot;AcadEref&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>比赛加时</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_red_logo">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>850</y>
+     <width>341</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/mysource/picture/red_robot.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_blue_logo">
+   <property name="geometry">
+    <rect>
+     <x>1550</x>
+     <y>850</y>
+     <width>341</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/mysource/picture/blue_robot.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_red_team_name">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>680</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;楷体&quot;;
+color: rgb(255, 0, 0);
+font: 28pt &quot;AcadEref&quot;;
+font: 75 9pt &quot;AcadEref&quot;;
+font: 20pt &quot;AcadEref&quot;;</string>
+   </property>
+   <property name="text">
+    <string>红鲤鱼与绿鲤鱼队</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>720</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;华文行楷&quot;;
+color: rgb(0, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Bupt Robocon Reserves</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>730</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;华文行楷&quot;;
+color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Bupt Robocon Reserves</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_blue_team_name">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>670</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 9pt &quot;楷体&quot;;
+font: 75 9pt &quot;AcadEref&quot;;
+font: 20pt &quot;AcadEref&quot;;
+color: rgb(0, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>红鲤鱼与绿鲤鱼队</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar_red">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>800</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QProgressBar {
+	font: 20pt &quot;AcadEref&quot;;
+   border: 2px solid grey;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+}
+ 
+QProgressBar::chunk {
+   background-color: #ff0000;
+   width:1px;
+}
+ 
+QProgressBar {
+   border: 2px solid grey;
+   border-radius: 5px;
+   text-align: center;
+}</string>
+   </property>
+   <property name="maximum">
+    <number>100</number>
+   </property>
+   <property name="value">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar_blue">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>800</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QProgressBar {
+	font: 20pt &quot;AcadEref&quot;;
+   border: 2px solid grey;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+}
+ 
+QProgressBar::chunk {
+   background-color: #05B8CC;
+   width: 1px;
+}
+ 
+QProgressBar {
+   border: 2px solid grey;
+   border-radius: 5px;
+   text-align: center;
+}</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>860</y>
+     <width>1851</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QProgressBar {
+	color: rgb(0, 170, 0);
+	color: rgb(255, 0, 0);
+	font: 20pt &quot;AcadEref&quot;;
+   border: 2px solid grey;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+}
+ 
+QProgressBar::chunk {
+   background-color:#00aa00;
+   width: 1px;
+}
+ 
+QProgressBar {
+   border: 2px solid grey;
+   border-radius: 5px;
+   text-align: center;
+}</string>
+   </property>
+   <property name="maximum">
+    <number>180</number>
+   </property>
+   <property name="value">
+    <number>27</number>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+   <property name="format">
+    <string>%v</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_lastblood_red">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>800</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Agency FB&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>红方</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_lastblood_blue">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>800</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 22pt &quot;Agency FB&quot;;
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>410</y>
+     <width>351</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 48pt &quot;Agency FB&quot;;
+border-image: url(:/mysource/picture/touming.png);
+color: rgb(255, 0, 0);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

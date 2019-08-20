@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/mysource">
+        <file>picture/123.gif</file>
+        <file>picture/background1.jpg</file>
+        <file>picture/blue_red_pk.jpg</file>
+        <file>picture/blue_robot.png</file>
+        <file>picture/button_background.png</file>
+        <file>picture/button_background_pressed.png</file>
+        <file>picture/button_background_red.png</file>
+        <file>picture/close.png</file>
+        <file>picture/curse.png</file>
+        <file>picture/game_background.jpg</file>
+        <file>picture/kuang.png</file>
+        <file>picture/logo.png</file>
+        <file>picture/robot.gif</file>
+        <file>picture/robot_team_name.jpg</file>
+        <file>picture/robot_team_name.png</file>
+        <file>picture/score.jpg</file>
+        <file>picture/vs.jpg</file>
+        <file>picture/vs.png</file>
+        <file>picture/vs_choosed.png</file>
+        <file>picture/red_robot.png</file>
+        <file>picture/game_background_2.jpg</file>
+        <file>picture/touming.png</file>
+        <file>picture/background.jpg</file>
+    </qresource>
+</RCC>

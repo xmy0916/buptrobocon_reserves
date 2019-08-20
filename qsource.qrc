@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/btn">
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/123.gif</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/background.jpg</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/background1.jpg</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/blue_red_pk.jpg</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/blue_robot.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/button_background.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/button_background_pressed.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/button_background_red.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/close.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/curse.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/game_background.jpg</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/kuang.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/logo.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/red_robot.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/robot.gif</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/robot_team_name.jpg</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/robot_team_name.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/vs.jpg</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/vs.png</file>
+        <file>D:/My_qt/Bupt_Reserves_Score_indicator/picture/vs_choosed.png</file>
+    </qresource>
+</RCC>
